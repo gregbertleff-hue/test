@@ -1,0 +1,46 @@
+{
+  "site": {
+    "title": "My Simple Site",
+    "tagline": "Welcome to my website",
+    "nav": [
+      { "slug": "home", "title": "Home" },
+      { "slug": "about", "title": "About" },
+      { "slug": "contact", "title": "Contact" }
+    ],
+    "footerTitle": "My Simple Site"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "A simple, content-driven site",
+          "subheading": "Edit content/content.json to change this text.",
+          "cta": { "label": "Learn more", "href": "#learn-more" }
+        },
+        {
+          "type": "features",
+          "heading": "Quick features",
+          "items": [
+            {"title": "Fast", "text": "No frameworks, just static files."},
+            {"title": "Simple", "text": "Edit JSON to change content."},
+            {"title": "Portable", "text": "Works on any static host."}
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "sections": [
+        {"type": "text", "html": "<p>This site is generated from a JSON file. Update <code>content/pages.json</code> to customize.</p>"}
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "sections": [
+        {"type": "text", "html": "<p>Find me on <a href=\"https://example.com\">my website</a>.</p>"}
+      ]
+    }
+  }
+}
